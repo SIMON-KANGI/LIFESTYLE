@@ -1,0 +1,88 @@
+.container{
+    overflow: hidden;
+    height: 100%;
+}
+#tabs{
+    margin-top:20rem;
+    margin-left:7rem;
+}
+#google{
+    width:20rem;
+    background: rgb(248, 245, 245);
+    border: solid 1px
+}
+#g-icon,
+#f-icon{
+
+font-size: 1.5rem;
+margin-left: -4rem;
+margin-right:4rem
+}
+#facebook{
+    border: solid 1px;
+    width:20rem;
+    background: rgb(37, 107, 238);
+    color:white;
+    margin-top:1rem;
+}
+#log-in{
+    border: solid 1px;
+    width:20rem;
+    background: rgb(35, 85, 32);
+    color:white;
+    margin-top:1rem;
+    height:3rem;
+    font-size:1rem;
+    margin-left:35rem;
+}
+#email1
+{
+   
+    width:20rem;
+    background: rgb(215, 208, 208);
+    color:rgb(25, 23, 23);
+    margin-top:1rem;
+    border: solid 1px;
+    height:3rem;
+    
+
+}
+input :focus{
+    outline: none;
+}
+#formik{
+    justify-content: center;
+    margin:30rem;
+}
+#login{
+    width:20rem;
+    background-color: green;
+    height:3rem;
+    margin-top: 1rem;
+}
+#label{
+    font-size: 1.2rem;
+}
+#books{
+    margin-top: 6rem;
+}
+#username{
+    display:block;  
+     margin-left:35rem;
+}
+#name{
+    border:solid 2px;
+    width:20rem;
+ 
+}
+#passwords{
+    border:solid 2px;
+    width:20rem;
+}
+#password{
+   
+    margin-left:35rem;
+}
+input:focus{
+    outline: none;
+}

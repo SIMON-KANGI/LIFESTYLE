@@ -1,0 +1,88 @@
+*{
+    max-width:100%;
+    box-sizing: border-box;
+
+ margin:0;
+ padding: 0;
+}
+#title{
+    background-color: black;
+}
+#price{
+    color:white;
+    font-size: 7rem;
+    font-weight: 900;
+}
+#select{
+    background-color: rgb(4, 119, 75);
+    color: white;
+    width:85%;
+    height:3rem;
+}
+#box{
+    background-color: rgb(255, 247, 247);
+}
+#box-iv{
+    background-color: rgb(238, 231, 231);
+}
+@media(max-width:500px){
+    #title{
+        background-color: black;
+        margin-top:4rem;
+    }
+    #box{
+        margin-top:15rem
+    }
+    #price{
+        color:white;
+        font-size: 4rem;
+        font-weight: 900;
+    }
+}
+#input{
+    display:block;
+}
+#email{
+    border:solid 2px;
+    width:100%;
+    height: 3rem;
+}
+
+
+
+#pay{
+    width:100%;
+    background-color: black;
+    color:white;
+    height: 3rem;
+    margin-top: 3rem;
+}
+#customer{
+    display:flex;
+   
+    width:100%
+}
+#cus-right{
+    border:solid 2px;
+    margin-left:5rem;
+}
+#log{
+    background-color: rgb(233, 226, 226);
+    height:3rem;
+}
+@media(max-width:500px){
+    #customer{
+        display:block;
+       
+        width:100%
+    }
+    #cus-right{
+        border:solid 2px;
+        margin-left:0rem;
+        margin-top:2rem;
+    }
+    #log{
+        background-color: rgb(233, 226, 226);
+        height:3rem;
+    }
+}

@@ -1,0 +1,22 @@
+#procard{
+    margin: 1rem
+}
+#proitem{
+    display:flex;
+    flex-wrap:wrap;
+    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+}
+#proimg{
+    width:30rem;
+    height:1orem;
+}
+#probtn{
+    background-color: rgb(38, 178, 150);
+    color:white;
+    width:90%;
+    height:2.3rem;
+    margin: 1rem;
+}
+#proprice{
+font-weight: 600;
+}

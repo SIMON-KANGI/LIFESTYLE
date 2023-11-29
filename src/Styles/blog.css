@@ -1,0 +1,104 @@
+
+   
+#blogs{
+    display:flex;
+    margin:2rem;
+    max-height:500px;
+    border:solid 2px;
+    background-color: aliceblue;
+    max-width: 1100px;
+}
+#blogImage{
+    max-width:500px;
+    height:500px;
+}
+#blogging{
+    background-color:#01060b ;
+    width:100vw;
+    margin-top:0rem;
+    flex-wrap: wrap;
+}
+#text{
+    max-width:500px;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+#share{
+    margin-left:30rem;
+}
+.dropdown-menu{
+    background: transparent;
+    margin-right:5rem
+}
+#blogs h1{
+    font-size: 2rem;
+}
+#sharepost{
+    display:flex;
+    font-size: 1.2rem;
+}
+#views{
+    display:flex;
+}
+#like{
+    float:right;
+    margin-left:90%;
+
+}
+#moreblogs:hover{
+    color:rgb(76, 130, 2)
+}
+#blog-mod{
+    width:60%;
+    margin-top:0rem;
+    border:solid 1px;
+    height: 100vh;
+}
+#blog-mod img{
+    width:80%;
+    height:30rem;
+    margin:7%
+}
+#subscribe{
+    border:solid 1px;
+    height:15rem;
+}
+#subs{
+    background-color: rgb(69, 116, 69);
+    color:white;
+    width:9rem;
+    height:3rem;
+}
+#blog-categories{
+    margin-top: 7rem;
+    margin-left:11rem
+}
+#blog-items{
+    display:flex;
+    
+}
+@media(max-width:800px){
+    #blogs{
+        display:block;
+        margin:2rem;
+        max-height:600px;
+        border:solid 2px;
+        background-color: aliceblue;
+        width:100%;
+    }
+    #blogImage{
+        width:100%;
+        height:300px;
+    }
+    #text{
+        width:100%;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    #share{
+        margin-left:28rem;
+    }
+    #text h1{
+        font-size:1.5rem
+    }
+}

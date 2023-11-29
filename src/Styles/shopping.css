@@ -1,0 +1,134 @@
+#item-holder{
+    display:block
+}
+#cart{
+margin-right: 5rem;
+}
+
+#items{
+    margin-top: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+}
+
+.card-row{
+    margin-top:2rem;
+    display:flex;
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+}
+.overlay{
+    position:absolute;
+    transform: translate(0%, 70%);
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #e8eef0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+    margin-bottom:8rem;
+   opacity:0.8;
+}
+.text{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#box2{
+    width:100%;
+    height:100%
+}
+#box2:hover .overlay{
+    height:20%
+
+}
+.overlay a{
+    background-color: #e8eef0;
+  }
+  .text a{
+    text-decoration:none;
+    color:black;
+  }
+  #more{
+    background-color: green;
+    width:6rem;
+    color:white;
+    height:1.6rem;
+    transform:translate(0, -17rem)
+  }
+#item-img{
+    height:280px;
+    width:280px
+}
+#modalbody{
+    display:flex;
+    width:100%;
+    background-color: white;
+    margin-top: 10rem;
+    
+}
+#add{
+    width:30rem;
+    background-color: green;
+    color:white;
+    height:3rem;
+}
+#modalimg{
+    height:20rem
+}
+@media(max-width:1000px){
+    #item-img{
+        height:280px;
+        width:280px;
+        
+    }
+    #card{
+    margin-top:4rem;
+    
+    }
+}
+@media(max-width:750px){
+    #item-img{
+        height:700px;
+        width:700px;
+        
+    }
+    #card{
+    margin-top:4rem;
+    
+    }
+    .overlay{
+        transform: translate(0%, 30%);
+    }
+    #more{
+        transform:translate(0, -43rem)
+    }
+}
+@media(max-width:550px){
+    #item-img{
+        height:380px;
+        width:380px;
+        
+    }
+    #card{
+    margin-top:4rem;
+    
+    }
+    .overlay{
+        transform: translate(0%, 50%);
+    }
+    #more{
+        transform:translate(0, -23rem)
+    }
+}
